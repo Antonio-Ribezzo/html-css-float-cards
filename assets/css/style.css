@@ -18,5 +18,32 @@ header{
 
 .description{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.card{
+    width: calc((100% / 3) - 2%);
+    height: 100px;
+    background-color: black;
+    margin-bottom: 5%;
+}
+
+.box1{
+    float: left;
+}
+
+.box2{
+    float: left;
+    margin-left: 3%;
+}
+
+.box3{
+    float: right;
 }
