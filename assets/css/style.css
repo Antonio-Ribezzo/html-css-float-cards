@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+header,main{
+    width: 80%;
+    margin: auto;
+}
+
 header{
     font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin-top: 50px;
+    color: #e53170;
 }
+
